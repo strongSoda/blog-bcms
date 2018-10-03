@@ -73,16 +73,11 @@
       font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
     }
   
-    pre {
-      display: block;
-      padding: 1em;
-      margin: 0 0 2em;
-      font-size: 1em;
-      line-height: 1.4;
-      word-break: break-all;
-      word-wrap: break-word;
-      color: #333333;
-      background-color: #f5f5f5;
-      font-family: Menlo, Monaco,Consolas, "Courier New", monospace;
-    }
+   /* Responsive floating */
+    @media only screen and (min-width: 720px)  {
+      .butter-float-left {
+        float: left;
+        margin: 0px 10px 10px 0px;
+      }
+  
   
